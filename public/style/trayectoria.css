@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.lista-exp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.conocimiento {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.character {
+  font-style: italic;
+  display: grid;
+}
+
+@media (max-width: 768px) {
+  .lista-exp {
+    grid-template-columns: 1fr;
+  }
+  .conocimiento {
+    display: grid;
+    margin: 1rem;
+  }
+}
