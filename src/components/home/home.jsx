@@ -35,10 +35,10 @@ function Home() {
 
 									<li class="ftco-animate fadeInUp ftco-animated"><a
 											href="https://www.instagram.com/cristinamonper/"><img
-												src="./icon/32px/403-instagram.png" alt="Instagram" /></a></li>
+												src="./images/instagram.png" alt="Instagram" /></a></li>
 									<li class="ftco-animate fadeInUp ftco-animated"><a
 											href="https://www.linkedin.com/in/cristina-monper/"><img
-												src="./icon/32px/458-linkedin.png" alt="Linkedinn" /></a></li>
+												src="./images/linkedin.png" alt="Linkedin" /></a></li>
 								</ul>
 								
 
