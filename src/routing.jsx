@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 import Home from './components/home/home';
 import Galery from './components/galeria/galery';
-import Traject from './components/traject/traject';
+import Trajectory from './components/trajectory/trajectory';
 
 
 export default class Routing extends Component{
@@ -13,7 +13,7 @@ export default class Routing extends Component{
                     <Switch>
                         <Route path="/" component={Home} />
                         <Route path="/galeria" component={Galery} />
-                        <Route path="/trayectoria" component={Traject} />
+                        <Route path="/trayectoria" component={Trajectory} />
                     </Switch>
 
                 </div>

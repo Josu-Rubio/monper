@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Traject() {
   return (
-    <div className="Traject">
+    <div className="Trajectory">
 Trayectoria
     </div>
   );
