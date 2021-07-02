@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 function Home() {
   return (
     <div className="Home">
-<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
+    <body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
 
 
 	<div id="colorlib-page">

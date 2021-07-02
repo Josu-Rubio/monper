@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 import Home from './components/home/home';
-import Galery from './components/galery/galery';
+import Galery from './components/galeria/galery';
 import Traject from './components/traject/traject';
 
 
