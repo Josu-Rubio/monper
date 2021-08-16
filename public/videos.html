@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./style/animate.css">
     <link rel="stylesheet" href="./style/magnific-popup.css">
     <link rel="stylesheet" href="./style/aos.css">
-    <link rel="stylesheet" href="./style/gallery.css">
+    <link rel="stylesheet" href="./style/video.css">
     <link rel="stylesheet" href="./style/jquery.timepicker.css">
 
 
@@ -78,43 +78,24 @@
 
         </aside> <!-- END COLORLIB-ASIDE -->
         <div id="colorlib-main">
+            <header style="width: 100%; background-color: rgb(0,0,0,0.1);">
+                <h1 style="text-align: center; font-style: italic;">VideoBook</h1>
 
-            <div>
+            </header>
 
-                <div class="gallery">
-
-
-                    <div class="main_view">
-                        <img src="./images/Crismonper04.jpg " id="main" alt="IMAGE">
-                    </div>
-
-
-                    <div class="side_view">
-                        <img src="./images/Crismonper04.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper06.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper12.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper16.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper20.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper26.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper33.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper40.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper47.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper49.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper59.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper61.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper67.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper71.jpg" onclick="change(this.src)">
-                        <img src="./images/Crismonper77.jpg" onclick="change(this.src)">
-                    </div>
-                </div>
-
-                <script type="text/javascript">
-                    const change = src => {
-                        document.getElementById('main').src = src
-                    }
-                </script>
-
+            <div class="video" id="video">
+                <!-- <video id="video1" width="100%" controls="screen"> -->
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/2M59R_RyZjc"
+                    title="YouTube video player" frameborder="0" quality="high"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <!-- Your browser does not support HTML video. -->
+                <!-- </video> -->
             </div>
+
+
+
+
             <footer id="footer" class="ftco-footer ftco-bg-dark ftco-section">
                 <div class="container px-md-5">
                     <div class="row mb-5">
@@ -141,12 +122,10 @@
                             <div class="ftco-footer-widget mb-4">
                                 <h2 class="ftco-heading-2">Menú</h2>
                                 <ul class="list-unstyled categories">
-                                    <!-- <li><a href="http://www.cristinamonper.es/videobook.html">Videobook</a></li> -->
                                     <li><a href="http://www.cristinamonper.es/galeria.html">Galería</a></li>
                                     <li><a href="http://www.cristinamonper.es/videos.html">Vídeos</a></li>
                                     <li><a href="http://www.cristinamonper.es/trayectoria.html">Mi trayectoria</a>
                                     </li>
-                                    <!-- <li><a href="http://www.cristinamonper.es/redes.html">Redes sociales</a></li> -->
                                 </ul>
                             </div>
                         </div>
