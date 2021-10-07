@@ -42,7 +42,7 @@ function Home() {
                           </a>
                         </li>
                         <li class='ftco-animate fadeInUp ftco-animated'>
-                          <a href='mailto:cristinamontagutperianez@gmail.com'>
+                          <a href='mailto:Crismonperactriz@gmail.com'>
                             <img src='./images/email.png' alt='email' />
                           </a>
                         </li>
