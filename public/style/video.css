@@ -1,5 +1,9 @@
 /*Setting Basic Dimensions to give 
         video view */
+#video {
+  margin: 2rem;
+}
+
 .iframe {
   width: 90%;
   height: 10rem;
